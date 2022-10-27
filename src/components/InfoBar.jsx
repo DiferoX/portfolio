@@ -7,7 +7,7 @@ function InfoBar() {
     <div className='infoBarContent'>
       <div className='aboutContent'>
         <h4>About</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus exercitationem saepe iure fuga, recusandae molestiae facilis odit nihil architecto a soluta expedita esse tempore natus eum doloremque reiciendis aperiam consequuntur?</p>
+        <p>I am a Front-End Web Developer. I love to take on new projects that challenge my technological and analytics capacities. I am passionate about the creation of aplications and interactives website experiences, by using tools like Javascript, React, HTML, CSS, Git, GitHub, among others.</p>
       </div>
       <div className='skillContent'>
         <h4>Skills</h4>

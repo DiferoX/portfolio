@@ -11,7 +11,7 @@ function MenuBar() {
         <a href="https://github.com/DiferoX" target="_blank" rel="noopener noreferrer">
           <FaGithub className='iconMenuBar' />
         </a>
-        <a href="https://github.com/DiferoX" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/diferox" target="_blank" rel="noopener noreferrer">
           <FaLinkedin className='iconMenuBar' />
         </a>
       </div>
