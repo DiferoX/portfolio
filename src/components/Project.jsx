@@ -5,7 +5,7 @@ function Project(props)
 {
   return (
     <div className='projectContent'>
-      <a href="https://www.theodinproject.com/dashboard" target="_blank" rel="noopener noreferrer">
+      <a href={props.project.page} target="_blank" rel="noopener noreferrer">
         <img 
             className='cardImg' 
             src={require(`../images/${props.project.name}.jpg`)}
@@ -14,10 +14,10 @@ function Project(props)
       </a>
       <h2>{props.project.name}</h2>
       <div>
-        <a href="https://www.theodinproject.com/dashboard" target="_blank" rel="noopener noreferrer">
+        <a href={props.project.page} target="_blank" rel="noopener noreferrer">
           <FaExternalLinkAlt className='icon' />
         </a>
-        <a href="https://www.theodinproject.com/dashboard" target="_blank" rel="noopener noreferrer">
+        <a href={props.project.code} target="_blank" rel="noopener noreferrer">
           <FaGithub className='icon' />
         </a>
       </div>
