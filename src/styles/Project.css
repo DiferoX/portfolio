@@ -1,0 +1,55 @@
+.projectContent
+{
+  position: relative;
+  height: 40vh;
+  width: 80%;
+  padding: 1rem;
+  background-color: var(--firstLight);
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px #000,
+              inset 2px 2px 5px black,
+              inset -5px -5px 10px black;
+  z-index: 0;
+}
+
+/* .projectContent::before
+{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  filter: blur(5px);
+  z-index: 0;
+} */
+
+.projectContent img
+{
+  height: 60%;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 2px 2px 5px #000;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.projectContent img:hover
+{
+  box-shadow: 10px 10px 20px #000;
+  transition: 0.5s;
+}
+
+.icon
+{
+  height: 1.5rem;
+  width: 1.5rem;
+  color: #000;
+  margin: 0 1rem;
+}
+
+.projectContent div a:hover .icon
+{
+  color: yellow;
+}

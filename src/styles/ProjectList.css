@@ -1,0 +1,10 @@
+.projectsMainContent
+{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  justify-items: center;
+  gap: 2rem;
+  padding: 3rem;
+  /* background-color: var(--darkBlue); */
+}

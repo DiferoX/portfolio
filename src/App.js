@@ -1,23 +1,67 @@
-import logo from './logo.svg';
 import './App.css';
+import { v4 as uuidv4 } from 'uuid';
+import Header from './components/Header';
+import ProjectList from './components/ProjectList';
 
-function App() {
+
+const projects =
+[
+  {
+    id: uuidv4(), 
+    name: "Battleship",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Weather-App",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Admin-Dashboard",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Restaurant",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Calculator",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Library",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "sign-up-form",
+    page: null,
+    code: null,
+  },
+  {
+    id: uuidv4(), 
+    name: "Tic-Tac-Toe",
+    page: null,
+    code: null,
+  },
+]
+
+function App() 
+{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ProjectList projects={projects} />
     </div>
   );
 }
