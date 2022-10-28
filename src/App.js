@@ -14,6 +14,12 @@ const projects =
   },
   {
     id: uuidv4(), 
+    name: "CV-Maker",
+    page: 'https://diferox.github.io/cv-project/',
+    code: 'https://github.com/DiferoX/cv-project',
+  },
+  {
+    id: uuidv4(), 
     name: "Battleship",
     page: 'https://diferox.github.io/Battleship/',
     code: 'https://github.com/DiferoX/Battleship',
