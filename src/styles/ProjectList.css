@@ -1,10 +1,27 @@
 .projectsMainContent
 {
-  width: 90%;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(3, auto);
   justify-items: center;
   gap: 2rem;
   padding: 3rem;
+  transition: 1s;
   /* background-color: var(--darkBlue); */
+}
+
+@media (max-width: 1281px)
+{
+  .projectsMainContent
+  {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px)
+{
+  .projectsMainContent
+  {
+    grid-template-columns: repeat(1, auto);
+  }
 }

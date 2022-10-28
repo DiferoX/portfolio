@@ -13,12 +13,12 @@ function InfoBar() {
       <div className='skillContent'>
         <h4>Skills</h4>
         <div>
-          <SiHtml5 />
-          <SiCss3 />
-          <SiJavascript />
-          <SiReact />
-          <FaGitAlt />
-          <FaGithub />
+          <SiHtml5 className='iconSkills' />
+          <SiCss3 className='iconSkills' />
+          <SiJavascript className='iconSkills' />
+          <SiReact className='iconSkills' />
+          <FaGitAlt className='iconSkills' />
+          <FaGithub className='iconSkills' />
         </div>
       </div>
     </div>

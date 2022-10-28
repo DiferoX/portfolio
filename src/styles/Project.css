@@ -9,6 +9,7 @@
   box-shadow: 2px 2px 5px #000,
               inset 2px 2px 5px black,
               inset -5px -5px 10px black;
+  transition: 1s;
   z-index: 0;
 }
 
@@ -46,4 +47,12 @@
 .projectContent div a:hover .icon
 {
   color: yellow;
+}
+
+@media (max-width: 1000px)
+{
+  .projectContent
+  {
+    width: 100%;
+  }
 }
