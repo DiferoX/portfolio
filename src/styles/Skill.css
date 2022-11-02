@@ -1,0 +1,51 @@
+
+.iconSkill
+{
+  transition: 0.5s;
+}
+
+.iconSkill:hover
+{
+  transform: scale(1.2);
+  transition: 0.5s;
+}
+
+.iconSkill.html
+{
+  color: #f06529;
+}
+
+.iconSkill.html:hover
+{
+  color: #e34c26;
+}
+
+.iconSkill.css
+{
+  color: #2965f1;
+}
+
+.iconSkill.css:hover
+{
+  color: #264de4;
+}
+
+.iconSkill.javascript
+{
+  color: #f0db4f;
+}
+
+.iconSkill.javascript:hover
+{
+  color: #ffdd00;
+}
+
+.iconSkill.react
+{
+  color: #61DBFB;
+}
+
+.iconSkill.react:hover
+{
+  color: #00ccff;
+}
