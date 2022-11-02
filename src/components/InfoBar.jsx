@@ -1,6 +1,8 @@
 import '../styles/InfoBar.css';
 import { SiHtml5, SiCss3, SiJavascript, SiReact } from 'react-icons/si';
 import { FaGitAlt, FaGithub } from 'react-icons/fa';
+import { FiDownload } from 'react-icons/fi';
+import CV from '../components/DiegoCV.pdf'
 
 function InfoBar() {
   return (
@@ -21,6 +23,14 @@ function InfoBar() {
           <FaGithub className='iconSkills' />
         </div>
       </div>
+      <a 
+        className='downloadButton' 
+        download="CV (Diego Ruiz).pdf" 
+        href={CV}
+      >
+        Download CV
+        <FiDownload className='downloadIcon' />
+      </a>
     </div>
   );
 }

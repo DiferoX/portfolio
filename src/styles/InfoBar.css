@@ -1,5 +1,6 @@
 .infoBarContent
 {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,6 +21,47 @@
 {
   font-size: 1rem;
   margin-top: 1.5rem;
+}
+
+.downloadButton
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  position: absolute;
+  top: 12vh;
+  right: 1rem;
+  height: 2rem;
+  width: 10rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #e34c26;
+  border: none;
+  border-radius: 5px;
+  text-shadow: 2px 2px 5px #111;
+  box-shadow: 2px 2px 5px #111,
+              inset 2px 2px 5px rgba(17, 17, 17, 0.8),
+              inset -2px -2px 5px rgba(17, 17, 17, 0.6);
+  transition: 0.5s;
+}
+
+.downloadButton:hover
+{
+  box-shadow: 5px 5px 10px #111,
+              inset 2px 2px 5px rgba(17, 17, 17, 0.8),
+              inset -2px -2px 5px rgba(17, 17, 17, 0.6);
+}
+
+.downloadButton:hover .downloadIcon
+{
+  color: yellow;
+}
+
+.downloadButton:link, .downloadButton:visited, .downloadButton:active
+{
+  text-decoration: none;
 }
 
 .skillContent div
