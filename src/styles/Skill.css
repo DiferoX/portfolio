@@ -49,3 +49,13 @@
 {
   color: #00ccff;
 }
+
+.iconSkill.firebase
+{
+  color: #ffcb2b;
+}
+
+.iconSkill.firebase:hover
+{
+  color: #f5820d;
+}

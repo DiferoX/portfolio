@@ -2,11 +2,23 @@ import './App.css';
 import { v4 as uuidv4 } from 'uuid';
 import Header from './components/Header';
 import ProjectList from './components/ProjectList';
-import { SiHtml5, SiCss3, SiJavascript, SiReact } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiReact, SiFirebase } from 'react-icons/si';
 
 
 const projects =
 [
+  {
+    id: uuidv4(), 
+    name: "Where's Waldo",
+    page: 'https://where-is-waldo-60fe8.web.app/',
+    code: 'https://github.com/DiferoX/where-is-waldo',
+    skills: 
+    [
+      { id: uuidv4(), skill: <SiCss3 className='iconSkill css' /> },
+      { id: uuidv4(), skill: <SiReact className='iconSkill react' /> },
+      { id: uuidv4(), skill: <SiFirebase className='iconSkill firebase' /> },
+    ]
+  },
   {
     id: uuidv4(), 
     name: "Shopping Cart",
